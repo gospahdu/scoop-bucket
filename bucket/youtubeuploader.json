@@ -1,0 +1,29 @@
+{
+    "version": "20.05",
+    "description": "Scripted uploads to youtube.",
+    "homepage": "https://github.com/porjo/youtubeuploader",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.fastgit.org/porjo/youtubeuploader/releases/download/20.05/youtubeuploader_windows_amd64.zip",
+            "hash": "sha256:dce003fe82b452323347319b38e1802f4f57dedb10a189064065c0db401dde32"
+        }
+    },
+    "bin": [
+        [
+            "youtubeuploader_windows_amd64.exe",
+            "youtubeuploader"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.fastgit.org/porjo/youtubeuploader/releases/download/$version/youtubeuploader_windows_amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256-checksums"
+        }
+    }
+}
