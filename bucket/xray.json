@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://download.fastgit.org/XTLS/Xray-core/releases/download/v1.2.2/Xray-windows-64.zip",
-            "hash": "bae5dc7ac24d4f46f9823679c7e50d3b52ea330e621901605ebfa82830e2d332"
+            "hash": "24daf0a707fcad15bea0bf7f7733b40b374c85d91be5d1a9a6b22ac6c86e8380"
         },
         "32bit": {
             "url": "https://download.fastgit.org/XTLS/Xray-core/releases/download/v1.2.2/Xray-windows-32.zip",
-            "hash": "57d6a3295725d4777f923e907518c10184f4e87777320527b5514fb3a45fa91b"
+            "hash": "f2923015f54725479d3f0d913e1ec3734d72d134637418c6ea673c9b3f15a245"
         }
     },
     "bin": "xray.exe",
