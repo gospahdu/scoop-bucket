@@ -15,7 +15,6 @@
     "persist": "Office",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/YerongAI/Office-Tool/releases/download/$version/Office-Tool-with-runtime-v$majorVersion.$minorVersion.zip",
-        "regex": "$basename.*?$sha256"
+        "url": "https://download.fastgit.org/YerongAI/Office-Tool/releases/download/$version/Office-Tool-with-runtime-v$majorVersion.$minorVersion.zip"
     }
 }
