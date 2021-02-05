@@ -4,13 +4,13 @@
     "homepage": "http://listen1.github.io/listen1/",
     "license": "MIT",
     "architecture": {
+        "32bit": {
+            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.18.0/listen1_2.18.0_win_ia32.7z",
+            "hash": "sha512:82041F8E49A2BAC7201884EA8BB18FF9953035308EE7634DDE34261539BB0C133FA8094AD55F791D5D3C5BE8CADC2ED499F48DF5BE5E4549C2B5124A909F9356"
+        },
         "64bit": {
-            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.18.0/listen1_2.18.0_win.exe#/dl.7z",
-            "hash": "sha512:678f0f924da0170c85c354081be2cc11dbb1acd255685b3eb845a65c7f0e71f94279393eae153e2ed4b8a7c1ffc069a2c89348bffaaf91a7b4f9d8cce74fe773",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
-            ]
+            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.18.0/listen1_2.18.0_win_x64.7z",
+            "hash": "sha512:32D607614D1923616538B43F5F3407B8DB50EFA7C9E0DA22D21AB4D399F69E32ED0F6226E6976C49B7239BCD9A07B7F7B041C51DBBEEE794BE29EC8CA2DD3F4E"
         }
     },
     "bin": "Listen1.exe",
@@ -25,13 +25,12 @@
     },
     "autoupdate": {
         "architecture": {
+            "32bit": {
+                "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win_ia32.7z"
+            },
             "64bit": {
-                "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win.exe#/dl.7z"
+                "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win_x64.7z"
             }
-        },
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "sha512:\\s*$base64"
         }
     }
 }
