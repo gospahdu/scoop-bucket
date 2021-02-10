@@ -8,7 +8,7 @@
     "extract_dir": "Office Tool",
     "post_install": [
         "if (Test-Path \"$(appdir vlmcsd)\\current\\vlmcs-Windows.exe\") {",
-        "    New-Item -Force -ItemType HardLink -Path \"$(appdir vlmcsd)\\current\" -Name vlmcs-Windows.exe -Target \"$dir\\activate\\vlmcs.exe\" | Out-Null",
+        "    New-Item -Force -ItemType SymbolicLink -Path \"$dir\\activate\\\" -Name vlmcs.exe -Target \"$(appdir vlmcsd)\\current\\vlmcs-Windows.exe\" | Out-Null",
         "}"
     ],
     "shortcuts": [
