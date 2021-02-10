@@ -2,6 +2,7 @@
     "version": "7.91",
     "description": "Network exploration and security auditing utility. (includes Npcap)",
     "homepage": "https://nmap.org",
+    "extract_dir": "nmap-7.91",
     "license": {
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/nmap/nmap/blob/master/COPYING"
@@ -20,6 +21,7 @@
         "regex": "nmap-([\\d.]+)-win32\\.zip"
     },
     "autoupdate": {
-        "url": "https://nmap.org/dist/nmap-$version-win32.zip"
+        "url": "https://nmap.org/dist/nmap-$version-win32.zip",
+        "extract_dir": "nmap-$version"
     }
 }
