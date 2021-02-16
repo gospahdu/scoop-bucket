@@ -1,16 +1,16 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "a desktop application built by Electron, containing full feature of AriaNg.",
     "homepage": "https://github.com/mayswind/AriaNg-Native",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/mayswind/AriaNg-Native/releases/download/1.2.0/AriaNg_Native-1.2.0-Windows-x64.7z",
-            "hash": "9d2421fa46233800684220381baa85af942989e4d7d985c5b4fd09b23fcd1e8e"
+            "url": "https://download.fastgit.org/mayswind/AriaNg-Native/releases/download/1.2.1/AriaNg_Native-1.2.1-Windows-x64.7z",
+            "hash": "bf0fd6c4f97181b13591ea7ba91af083084fe919009646aaa8c7c7755611dfdd"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/mayswind/AriaNg-Native/releases/download/1.2.0/AriaNg_Native-1.2.0-Windows-x86.7z",
-            "hash": "f3a12de1e5608fc51309eb0a2fec58c13128e27fca052f43f50937483d3e8375"
+            "url": "https://download.fastgit.org/mayswind/AriaNg-Native/releases/download/1.2.1/AriaNg_Native-1.2.1-Windows-x86.7z",
+            "hash": "cea258ef9da68181ce9e92501bd197dd8aa31828e33fb8c11448abf33bede40a"
         }
     },
     "bin": "AriaNg Native.exe",
