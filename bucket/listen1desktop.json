@@ -1,16 +1,16 @@
 {
-    "version": "2.21.1",
+    "version": "2.21.2",
     "description": "One for all free music in China",
     "homepage": "http://listen1.github.io/listen1/",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.21.1/listen1_2.21.1_win_ia32.7z",
-            "hash": "8978f5c79d906dd301c1ac48421273063ee16364563c98e9fe1a5ebff17df767"
+            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.21.2/listen1_2.21.2_win_ia32.7z",
+            "hash": "09918d48f4701ad334a27dc9ab4ec6029c1a6b1b9c1bcded8e20ed664be6c164"
         },
         "64bit": {
-            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.21.1/listen1_2.21.1_win_x64.7z",
-            "hash": "9ead51e6f61f2ba860be2b7ee9c3e04a2fc7517aeb442075150b5690304e193e"
+            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.21.2/listen1_2.21.2_win_x64.7z",
+            "hash": "3d9e76a8f37f70a309820b1431b4a3e8374a2e5ea2dc04a09dc7320ead8b5385"
         }
     },
     "bin": "Listen1.exe",
