@@ -1,10 +1,10 @@
 {
-    "version": "1.1.4",
+    "version": "2.4.1",
     "description": "Steam++ is a toolbox with lots of Steam tools",
     "homepage": "https://github.com/SteamTools-Team/SteamTools",
     "license": "GPL-3.0-only",
-    "url": "https://download.fastgit.org/rmbadmin/SteamTools/releases/download/1.1.4/Steam++.v1.1.4.zip",
-    "hash": "6d3ae5dfe759fb6f067a3d7aea62e702da8513a1d2637ee1b1c968817e53009a",
+    "url": "https://download.fastgit.org/SteamTools-Team/SteamTools/releases/download/2.4.1/Steam++_win_x64_v2.4.1.7z",
+    "hash": "f585575e8c1466f09dd351a9f2a1e0d98669b38c8df6ba0cf405e4e5e9863c12",
     "shortcuts": [
         [
             "Steam++.exe",
