@@ -13,6 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/rmbadmin/SteamTools/releases/download/$version/Steam++.v$version.zip"
+        "url": "https://download.fastgit.org/rmbadmin/SteamTools/releases/download/$version/Steam++_win_x64_.v$version.7z"
     }
 }
