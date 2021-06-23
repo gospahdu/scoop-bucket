@@ -1,0 +1,21 @@
+{
+    "version": "4.40.1",
+    "description": "A platform for building proxies to bypass network restrictions.",
+    "homepage": "https://www.v2fly.org/en_US/",
+    "license": "MIT",
+    "url": "https://download.fastgit.org/v2fly/v2ray-core/releases/download/v4.40.1/v2ray-extra.zip",
+    "hash": "SHA256:D10A705AE42CD5B5D37261CDF8E8EB0ED5525FA399C92E98BF60CF3CFBCE60DB",
+    "checkver": {
+        "github": "https://github.com/v2fly/v2ray-core"
+    },
+    "post_install": [
+        "if (Test-Path \\$(appdir v2ray)\\current\\v2ray.exe\\) {",
+        "    foreach ($obj in Get-ChildItem $dir) {",
+        "        New-Item -Path \\$(appdir v2ray)\\current\\$($obj.Name)\\ -ItemType SymbolicLink -Value $obj\\",
+        "    }",
+        "}"
+    ],
+    "autoupdate": {
+        "url": "https://download.fastgit.org/v2fly/v2ray-core/releases/download/v$version/v2ray-extra.zip"
+    }
+}
