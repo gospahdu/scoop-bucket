@@ -4,7 +4,7 @@
     "version": "8.2.4.1",
     "license": "GPL-3.0-only",
     "url": "https://download.fastgit.org/YerongAI/Office-Tool/releases/download/8.2.4.1/Office_Tool_v8.2.4.1.zip",
-    "hash": "fbd29e9f2b65960990cec57801e6d71acbbbac6be7ce286ef60d8d9fcc8688ff",
+    "hash": "0469a931657423dcef03b1fb6524a5e442ed65bcc975acf5305a955ac277e5ce",
     "extract_dir": "Office Tool",
     "post_install": [
         "if (Test-Path \"$(appdir vlmcsd)\\current\\vlmcs-Windows.exe\") {",
