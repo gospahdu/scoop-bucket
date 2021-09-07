@@ -1,16 +1,16 @@
 {
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "V2Ray with XTLS support and other features",
     "homepage": "https://github.com/XTLS/Xray-core",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/XTLS/Xray-core/releases/download/v1.4.2/Xray-windows-64.zip",
-            "hash": "24d9b41c20d6e8db64aa5db5de234bbbc07fd42c185f5ec18c39d4ba386cd276"
+            "url": "https://download.fastgit.org/XTLS/Xray-core/releases/download/v1.4.3/Xray-windows-64.zip",
+            "hash": "220ca30ce44ab714e6516da3e82ed99ca1436ca9e6a134d87fc7583f8fdcbe48"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/XTLS/Xray-core/releases/download/v1.4.2/Xray-windows-32.zip",
-            "hash": "26228d6e75c9ba49578838e0b933bcda20a8f766534516b23dc03dc8a185685b"
+            "url": "https://download.fastgit.org/XTLS/Xray-core/releases/download/v1.4.3/Xray-windows-32.zip",
+            "hash": "0a21c3b7b7ae0d0db5ec9d076f90b2ff5e74bc7d71bff375f6f75f2a1c87f793"
         }
     },
     "bin": "xray.exe",
