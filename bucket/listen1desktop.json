@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.21.6/listen1_2.21.6_win_ia32.7z",
+            "url": "https://github.com/listen1/listen1_desktop/releases/download/v2.21.6/listen1_2.21.6_win_ia32.7z",
             "hash": "1a1d67d11d8c295d8e2d508063d886d57682880efe0daae3a9d19c9cb691469c"
         },
         "64bit": {
-            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.21.6/listen1_2.21.6_win_x64.7z",
+            "url": "https://github.com/listen1/listen1_desktop/releases/download/v2.21.6/listen1_2.21.6_win_x64.7z",
             "hash": "a583df83ed8412be5fbd967a48c69b68613726e372bae06fe31316978512bb24"
         }
     },
@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win_ia32.7z"
+                "url": "https://github.com/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win_ia32.7z"
             },
             "64bit": {
-                "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win_x64.7z"
+                "url": "https://github.com/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win_x64.7z"
             }
         }
     }

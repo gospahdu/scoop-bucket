@@ -36,6 +36,6 @@
         "re": "svn(\\d+)"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/Wind4/vlmcsd/releases/download/svn$version/binaries.tar.gz"
+        "url": "https://github.com/Wind4/vlmcsd/releases/download/svn$version/binaries.tar.gz"
     }
 }

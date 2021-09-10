@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/caddyserver/xcaddy/releases/download/v0.2.0/xcaddy_0.2.0_windows_amd64.zip",
+            "url": "https://github.com/caddyserver/xcaddy/releases/download/v0.2.0/xcaddy_0.2.0_windows_amd64.zip",
             "hash": "345f0c26a03c28f642b7c04b6bd4813086499b2aebb98c712f15326d4580d501"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/caddyserver/xcaddy/releases/download/v$version/xcaddy_$version_windows_amd64.zip"
+                "url": "https://github.com/caddyserver/xcaddy/releases/download/v$version/xcaddy_$version_windows_amd64.zip"
             },
             "hash": {
                 "url": "$baseurl/xcaddy_$version_checksums.txt"
