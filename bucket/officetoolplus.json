@@ -20,10 +20,10 @@
     "persist": "Office",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/YerongAI/Office-Tool/releases/download/$version/Office_Tool_v$version.zip",
+        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_v$version.zip",
         "hash": {
-            "url": "https://github.com/YerongAI/Office-Tool/releases/$version",
-            "find": "Office_Tool_with_v$version.zip.[\\d\\D]*?$sha256"
+            "url": "https://github.com/YerongAI/Office-Tool/releases/v$version",
+            "find": "Office_Tool_v$version.zip.[\\d\\D]*?$sha256"
         }
     }
 }
