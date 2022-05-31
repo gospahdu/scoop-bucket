@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/porjo/youtubeuploader/releases/download/$version/youtubeuploader_windows_amd64.zip"
+                "url": "https://github.com/porjo/youtubeuploader/releases/download/$version/youtubeuploader_$version_Windows_x86_64.zip"
             }
         },
         "hash": {
