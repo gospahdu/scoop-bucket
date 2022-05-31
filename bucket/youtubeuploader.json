@@ -23,7 +23,7 @@
             }
         },
         "hash": {
-            "url": "$baseurl/sha256-checksums"
+            "url": "$baseurl/youtubeuploader_$version_checksums.txt"
         }
     }
 }
