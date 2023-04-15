@@ -33,7 +33,7 @@
         "    }",
         "}",
         "if (Test-Path $(appdir v2ray-rules-dat $global)) {",
-        "   Remove-Item -Path \"$dir\\bin\\\" -Include *.dat",
+        "   Remove-Item -Path \"$dir\\bin\\\" -Include *.dat -Recurse -Force",
         "   foreach ($form in @('*.dat')) {",
         "       foreach ($_ in Get-ChildItem \"$(appdir v2ray-rules-dat $global)\\current\" -File) {",
         "           $name = $_.Name",
