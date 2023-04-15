@@ -62,11 +62,7 @@
             "v2rayN"
         ]
     ],
-    "persist": [
-        "user-wininet.json",
-        "config.json",
-        "guiNConfig.json"
-    ],
+    "persist": "guiConfigs",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/2dust/v2rayN/releases/download/$version/v2rayN.zip"
