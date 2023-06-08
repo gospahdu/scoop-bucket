@@ -8,10 +8,6 @@
     "hash": "ef077ece59bfdf7f4f69c82bdba12768dab4d51284078a13fa51fddd5d7764c8",
     "installer": {
         "script": [
-            "if (-not (Test-Path \"$persist_dir\\v2ray-rules-dat\")) {",
-            "    Copy-Item \"$(appdir v2ray $global)\\current\\geoip.dat\" -Destination \"$dir\\geoip.dat.bak\"",
-            "    Copy-Item \"$(appdir v2ray $global)\\current\\geosite.dat\" -Destination \"$dir\\geosite.dat.bak\"",
-            "}",
             "function LinkFile([String] $file, [String] $source = $file) {",
             "    Write-Host \"Creating SymbolicLink for $file\"",
             "    New-Item -Force -ItemType SymbolicLink -Path \"$(appdir v2ray $global)\\current\" -Name $file -Target \"$dir\\$source\" | Out-Null",
