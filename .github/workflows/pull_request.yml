@@ -9,8 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Pull Request Validator
-      uses: gospahdu/Scoop-GithubActions@stable-win
+      uses: ScoopInstaller/GithubActions@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITH_USER: GitHub Action
-        GITH_EMAIL: action@github.com
+        
