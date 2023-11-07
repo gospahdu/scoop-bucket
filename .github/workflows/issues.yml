@@ -9,9 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Issue Handler
-      uses: gospahdu/Scoop-GithubActions@stable-win
+      uses: ScoopInstaller/Scoop-GithubActions@main
       if: github.event.action == 'opened' || (github.event.action == 'labeled' && contains(github.event.issue.labels.*.name, 'verify'))
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITH_USER: GitHub Action
-        GITH_EMAIL: action@github.com
