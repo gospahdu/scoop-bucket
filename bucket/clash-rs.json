@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.3.0/clash-x86_64-pc-windows-msvc-static-crt.exe",
-            "hash": "276b433647c6809a4ae673e7247a176e067870f91ed17c24c8f3b3535f8de40d",
+            "hash": "975040f10b9f43f506b982f26fec85ec6f17824bad3afa867875f31d21ad4578",
             "bin": [
                 [
                     "clash-rs.exe",
