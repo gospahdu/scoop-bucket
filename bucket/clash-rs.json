@@ -2,11 +2,11 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/Watfaq/clash-rs",
     "description": "custom protocol network proxy",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.2.0/clash-x86_64-pc-windows-msvc-static-crt.exe",
-            "hash": "025de3b7d922fb0cf0afd2c2017d7526995604a08053a37a61660ec2fd5aa824",
+            "url": "https://github.com/Watfaq/clash-rs/releases/download/v0.3.0/clash-x86_64-pc-windows-msvc-static-crt.exe",
+            "hash": "276b433647c6809a4ae673e7247a176e067870f91ed17c24c8f3b3535f8de40d",
             "bin": [
                 [
                     "clash-rs.exe",
