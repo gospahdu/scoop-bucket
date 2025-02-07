@@ -8,8 +8,18 @@
         ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
         "v2fly-core": "v2ray"
     },
-    "url": "https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN.zip",
-    "hash": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/2dust/v2rayN/releases/download/7.7.1/v2rayN-windows-64.zip",
+            "hash": "142874e10ab512042963a64dfe55b6570c472d052ef3d32a419a5a11a335cd48",
+            "extract_dir": "v2rayN-windows-64"
+        },
+        "arm64": {
+            "url": "https://github.com/2dust/v2rayN/releases/download/7.7.1/v2rayN-windows-arm64.zip",
+            "hash": "935e762e0178552bbaa9da4cd1e3c510b53a169269ccde9b41f972d7ae1bdc69",
+            "extract_dir": "v2rayN-windows-arm64"
+        }
+    },
     "extract_dir": "v2rayN",
     "pre_install": [
         "$list = ('xray', 'v2fly', 'sing_box')",
